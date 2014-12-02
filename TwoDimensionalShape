@@ -1,0 +1,22 @@
+// TwoDimensionalShape.java
+ package ShapeHierarchy;
+
+import Shape.Shape;
+
+ public abstract class TwoDimensionalShape extends Shape
+ {
+  public TwoDimensionalShape()
+  {}
+  
+  public TwoDimensionalShape(double len)
+  {
+ super(len);
+  }
+  
+ public TwoDimensionalShape(double len, double wid)
+ {
+ super(len, wid);
+}
+
+ public abstract double getArea();
+}
